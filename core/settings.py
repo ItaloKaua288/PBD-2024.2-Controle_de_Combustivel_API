@@ -120,5 +120,3 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
-
-# token 8e27a1dccd8cba3282ddf1d430faeb0541c090a6

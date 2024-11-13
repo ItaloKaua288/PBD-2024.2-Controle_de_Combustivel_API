@@ -4,4 +4,4 @@ from .models import Usuarios
 class UsuariosSerializer(serializers.ModelSerializer):
     class Meta:
         model = Usuarios
-        fields = '__all__'
+        fields = ['id', 'username', 'password', 'cargo']
